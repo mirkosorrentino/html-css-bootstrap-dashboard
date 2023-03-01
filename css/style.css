@@ -59,6 +59,12 @@ header {
     overflow-y: auto;
 }
 /* jumbotron */
+.ms_jumbotron {
+    color: white;
+    background-color: var(--jumbo-color);
+    /* debug */
+    min-height: 200px;
+}
 /* end jumbotron */
 
 /* dashboard */
