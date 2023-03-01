@@ -28,7 +28,7 @@ li>a {
     --sidebar-color: #051E34;
     /* sizes */
     --header-height: 70px;
-    --sidebar-small-width: 100px;
+    --sidebar-small-width: 90px;
     --sidebar-large-width: 200px;
 }
 
@@ -90,4 +90,12 @@ header {
 /* end jumbotron */
 
 /* dashboard */
+.ms_class-avatar {
+    width: 30px;
+    vertical-align: middle;
+}
+
+td>.ms_77-class-color {
+    color: white !important;
+}
 /* end dashboard */
