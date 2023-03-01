@@ -1,0 +1,33 @@
+/* RESET */
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* VARIABLES */
+:root {
+    --header-icons-color: #DC3545;
+    --jumbo-color: #1B72E8;
+    --bell-color: #FF8F00;
+    --yellow-tag: #FFC107;
+    --green-tag: #198754;
+    --red-tag: #DC3545;
+}
+
+/* COMMON */
+
+/* HEADER */
+
+/* MAIN */
+/* sidebar */
+/* end sidebar */
+
+/* jumbotron */
+/* end jumbotron */
+
+/* main content */
+/* end main content */
