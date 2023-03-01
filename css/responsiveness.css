@@ -1,0 +1,9 @@
+@media screen and (min-width: 992px) {
+    .ms_sidebar {
+        width: var(--sidebar-large-width);
+    }
+
+    .ms_content {
+        width: calc(100% - var(--sidebar-large-width));
+    }
+}
