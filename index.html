@@ -22,13 +22,15 @@
         <!-- header -->
         <header>
             <div class="container d-flex align-items-center ms_header_container justify-content-between">
-                <img src="img/mobile-logo.png" alt="Boolean small logo" class="ms_small-logo">
+                <a href="">
+                    <img src="img/mobile-logo.png" alt="Boolean small logo" class="ms_small-logo">
+                </a>
                 <!-- form -->
                 <div class="mb-3">
                     <input type="text" class="form-control ms_header_form" placeholder="name@example.com">
                   </div>
                 <!-- end form -->
-                <i class="fa-solid fa-bell"></i>
+                <i class="fa-solid fa-bell ms_bell"></i>
             </div>
         </header>
         <!-- end heder -->
@@ -36,7 +38,31 @@
         <!-- main -->
         <main class="d-flex">
             <!-- sidebar -->
-            <section class="ms_sidebar"></section>
+            <section class="ms_sidebar py-4 d-flex flex-column justify-content-between">
+                <ul>
+                    <li class="py-2 col-12">
+                        <a href="">
+                            <i class="fa-solid fa-house ms_sidebar-symbols"></i>
+                            <div class="d-none d-lg-inline-block px-1">Home</div>
+                        </a>
+                    </li>
+                    <li class="py-2 col-12">
+                        <a href="">
+                            <i class="fa-solid fa-chart-simple ms_sidebar-symbols"></i>
+                            <div class="d-none d-lg-inline-block px-2">Stats</div>
+                        </a>
+                    </li>
+                    <li class="py-2 col-12">
+                        <a href="">
+                            <i class="fa-solid fa-signal ms_sidebar-symbols"></i>
+                            <div class="d-none d-lg-inline-block px-1">Signals</div>
+                        </a>
+                    </li>
+                </ul>
+                <a href="" class="ms_sidebar-symbols text-center">
+                    <i class="fa-solid fa-gear"></i>
+                </a>
+            </section>
             <!-- end sidebar -->
 
             <!-- main content -->
@@ -74,6 +100,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3">
+
                                 <!-- To-do -->
                                 <div class="card">
                                     <div class="card-body">

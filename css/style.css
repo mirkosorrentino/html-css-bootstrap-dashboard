@@ -11,6 +11,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+li>a {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* VARIABLES */
 :root {
     /* colors */
@@ -20,6 +25,7 @@ body {
     --yellow-tag: #FFC107;
     --green-tag: #198754;
     --red-tag: #DC3545;
+    --sidebar-color: #051E34;
     /* sizes */
     --header-height: 70px;
     --sidebar-small-width: 100px;
@@ -47,18 +53,23 @@ header {
     width: 60px;
 }
 
-.ms_header_form {
-    width: 50px;
+.ms_bell {
+    color: var(--bell-color);
 }
 
 /* MAIN */
 /* sidebar */
 .ms_sidebar {
+    color: white;
     height: calc(100vh - var(--header-height));
     width: var(--sidebar-small-width);
+    background-image: url(../img/sidebar-bg.png);
+    background-color: var(--sidebar-color);
+}
 
-    /* debug */
-    background-color: lightblue;
+.ms_sidebar-symbols {
+    font-size: 1.5rem;
+    color: inherit;
 }
 /* end sidebar */
 
@@ -68,6 +79,7 @@ header {
     width: calc(100% - var(--sidebar-small-width));
     overflow-y: auto;
 }
+
 /* jumbotron */
 .ms_jumbotron {
     color: white;
