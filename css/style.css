@@ -26,6 +26,7 @@ li>a {
     --green-tag: #198754;
     --red-tag: #DC3545;
     --sidebar-color: #051E34;
+    --actions-color: #6C757D;
     /* sizes */
     --header-height: 70px;
     --sidebar-width: 90px;
@@ -99,5 +100,13 @@ header {
 
 td>.ms_77-class-color {
     color: white !important;
+}
+
+.ms_actions {
+    color: var(--actions-color);
+    border: 1px solid var(--actions-color);
+    border-radius: 5px;
+    height: 10px;
+    width: 10px;
 }
 /* end dashboard */
