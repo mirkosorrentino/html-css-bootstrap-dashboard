@@ -57,7 +57,7 @@ header {
 
 .ms_form {
     color: var(--form-text-color);
-    padding: 2rem 1rem;
+    background-color: var(--form-bg-color);
 }
 
 .ms_bell {
@@ -114,16 +114,17 @@ header {
 } 
 
 td>.ms_77-class-color {
-    color: white !important;
+    color: white;
 }
 
 .table>:not(caption)>*>* {
-    padding: 0.5rem 0 !important;
+    padding: 0.5rem 0;
 }
 
 .ms_graph {
     width: 100%;
-    border: 1px solid #dee2e6;;
+    border: 1px solid #dee2e6;
+    margin-bottom: 1rem;
 }
 
 .ms_card-title {
@@ -135,7 +136,4 @@ td>.ms_77-class-color {
     font-size: .8rem;
 }
 
-.ms_active-users>li {
-    font-size: .8rem;
-}
 /* end dashboard */

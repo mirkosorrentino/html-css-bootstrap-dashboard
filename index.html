@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boolean Dashboard</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- custom css link -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsiveness.css">
-    <!-- bootstrap link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,9 +27,9 @@
                     <img src="img/logo.svg" alt="Boolean big logo" class="d-none d-lg-inline-block">
                 </a>
                 <!-- form -->
-                <div class="input-group mb-3 ms_form">
-                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                <div class="input-group m-4">
+                    <span class="input-group-text ms_form" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="form-control ms_form" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
                 <!-- end form -->
                 <i class="fa-solid fa-bell ms_bell"></i>
@@ -147,7 +147,7 @@
                                                 20%
                                             </td>
                                             <td class="text-center">
-                                                <span class="badge text-bg-warning ms_77-class-color">Process
+                                                <span class="badge text-bg-warning ms_77-class-color text-white">Process
                                                 </span>
                                             </td>
                                             <td class="text-center">
@@ -332,10 +332,10 @@
                                         <img src="img/stats.jpeg" alt="Statistical graph" class="ms_graph">
                                       <h5 class="card-title ms_card-title">Utenti attivi</h5>
                                       <p class="card-text ms_card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
-                                      <ul class="ms_active-users">
-                                        <li>Gennaio: 1200</li>
-                                        <li>Febbraio: 800</li>
-                                        <li>Marzo: 1500</li>
+                                      <ul class="ms_active-user list-unstyled">
+                                        <li class="ms_card-text">Gennaio: 1200</li>
+                                        <li class="ms_card-text">Febbraio: 800</li>
+                                        <li class="ms_card-text">Marzo: 1500</li>
                                       </ul>
                                     </div>
                                 </div>
