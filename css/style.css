@@ -27,9 +27,11 @@ li>a {
     --red-tag: #DC3545;
     --sidebar-color: #051E34;
     --actions-color: #6C757D;
+    --form-bg-color: #E5E5E5;
+    --form-text-color: #8A8A8A;
     /* sizes */
     --header-height: 70px;
-    --sidebar-width: 90px;
+    --sidebar-width: 70px;
 }
 
 /* COMMON */
@@ -53,6 +55,11 @@ header {
     width: 60px;
 }
 
+.ms_form {
+    color: var(--form-text-color);
+    padding: 2rem 1rem;
+}
+
 .ms_bell {
     color: var(--bell-color);
 }
@@ -72,8 +79,12 @@ header {
 } 
 
 .ms_sidebar-symbols {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: inherit;
+}
+
+.ms_admin {
+    font-size: 1rem;
 }
 /* end sidebar */
 
@@ -98,11 +109,33 @@ header {
     vertical-align: middle;
 }
 
+.ms_card {
+    margin: 0.5rem;
+} 
+
 td>.ms_77-class-color {
     color: white !important;
 }
 
 .table>:not(caption)>*>* {
     padding: 0.5rem 0 !important;
+}
+
+.ms_graph {
+    width: 100%;
+    border: 1px solid #dee2e6;;
+}
+
+.ms_card-title {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.ms_card-text {
+    font-size: .8rem;
+}
+
+.ms_active-users>li {
+    font-size: .8rem;
 }
 /* end dashboard */

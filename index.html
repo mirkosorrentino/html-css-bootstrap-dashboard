@@ -27,9 +27,10 @@
                     <img src="img/logo.svg" alt="Boolean big logo" class="d-none d-lg-inline-block">
                 </a>
                 <!-- form -->
-                <div class="mb-3">
-                    <input type="text" class="form-control ms_header_form" placeholder="Prova a cercare: Lezioni di Laravel">
-                  </div>
+                <div class="input-group mb-3 ms_form">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
                 <!-- end form -->
                 <i class="fa-solid fa-bell ms_bell"></i>
             </div>
@@ -60,8 +61,9 @@
                         </a>
                     </li>
                 </ul>
-                <a href="" class="ms_sidebar-symbols text-center">
+                <a href="" class="ms_sidebar-symbols text-center text-decoration-none">
                     <i class="fa-solid fa-gear"></i>
+                    <span class="d-none d-lg-inline-block ms_admin">Admin</span>
                 </a>
             </section>
             <!-- end sidebar -->
@@ -81,9 +83,9 @@
                 <section class="ms_dashboard">
                     <div class="container">
                         <div class="grid d-lg-flex flex-lg-wrap">
-                            <div class="col-lg-9">
+                            <div class="col-lg-8">
                                 <!-- next classes -->
-                                <div class="card">
+                                <div class="card ms_card">
                                     <h5 class="card-header">Prossime classi</h5>
                                     <div class="card-body">
                                       <!-- table -->
@@ -91,6 +93,8 @@
                                         <thead>
                                           <tr>
                                             <td scope="col" colspan="2">Nome</td>
+                                            <td scope="col" class="d-none d-md-table-cell text-center">Data inizio</td>
+                                            <td scope="col" class="d-none d-md-table-cell text-center">ROI</td>
                                             <td scope="col" class="text-center">Stato</td>
                                             <td scope="col" class="text-center">Azioni</td>
                                           </tr>
@@ -100,10 +104,16 @@
                                             <td colspan="2">
                                                 <img src="img/class-avatar.jpg" alt="Class avatar" class="ms_class-avatar"> Class 75
                                             </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                15 febbraio 2021
+                                            </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                20%
+                                            </td>
                                             <td class="text-center">
                                                 <span class="badge text-bg-success">Done</span>
                                             </td>
-                                            <td>
+                                            <td class="text-center">
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
                                             </td>
@@ -112,10 +122,16 @@
                                             <td colspan="2">
                                                 <img src="img/class-avatar.jpg" alt="Class avatar" class="ms_class-avatar"> Class 76
                                             </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                16 febbraio 2021
+                                            </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                20%
+                                            </td>
                                             <td class="text-center">
                                                 <span class="badge text-bg-success">Done</span>
                                             </td>
-                                            <td>
+                                            <td class="text-center">
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
                                             </td>
@@ -124,11 +140,17 @@
                                             <td colspan="2">
                                                 <img src="img/class-avatar.jpg" alt="Class avatar" class="ms_class-avatar"> Class 77
                                             </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                17 febbraio 2021
+                                            </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                20%
+                                            </td>
                                             <td class="text-center">
                                                 <span class="badge text-bg-warning ms_77-class-color">Process
                                                 </span>
                                             </td>
-                                            <td>
+                                            <td class="text-center">
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
                                             </td>
@@ -137,10 +159,16 @@
                                             <td colspan="2">
                                                 <img src="img/class-avatar.jpg" alt="Class avatar" class="ms_class-avatar"> Class 78
                                             </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                18 febbraio 2021
+                                            </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                20%
+                                            </td>
                                             <td class="text-center">
                                                 <span class="badge text-bg-success">Done</span>
                                             </td>
-                                            <td>
+                                            <td class="text-center">
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
                                             </td>
@@ -149,10 +177,16 @@
                                             <td colspan="2">
                                                 <img src="img/class-avatar.jpg" alt="Class avatar" class="ms_class-avatar"> Class 79
                                             </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                19 febbraio 2021
+                                            </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                20%
+                                            </td>
                                             <td class="text-center">
                                                 <span class="badge text-bg-danger">Failed</span>
                                             </td>
-                                            <td>
+                                            <td class="text-center">
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
                                             </td>
@@ -161,10 +195,16 @@
                                             <td colspan="2">
                                                 <img src="img/class-avatar.jpg" alt="Class avatar" class="ms_class-avatar"> Class 80
                                             </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                20 febbraio 2021
+                                            </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                20%
+                                            </td>
                                             <td class="text-center">
                                                 <span class="badge text-bg-success">Done</span>
                                             </td>
-                                            <td>
+                                            <td class="text-center">
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
                                             </td>
@@ -173,10 +213,16 @@
                                             <td colspan="2">
                                                 <img src="img/class-avatar.jpg" alt="Class avatar" class="ms_class-avatar"> Class 81
                                             </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                21 febbraio 2021
+                                            </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                20%
+                                            </td>
                                             <td class="text-center">
                                                 <span class="badge text-bg-danger">Failed</span>
                                             </td>
-                                            <td>
+                                            <td class="text-center">
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
                                             </td>
@@ -185,10 +231,16 @@
                                             <td colspan="2">
                                                 <img src="img/class-avatar.jpg" alt="Class avatar" class="ms_class-avatar"> Class 82
                                             </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                18 febbraio 2021
+                                            </td>
+                                            <td class="text-center d-none d-md-table-cell">
+                                                20%
+                                            </td>
                                             <td class="text-center">
                                                 <span class="badge text-bg-success">Done</span>
                                             </td>
-                                            <td>
+                                            <td class="text-center">
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
                                                 <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
                                             </td>
@@ -200,7 +252,7 @@
                                 </div>
 
                                 <!-- FAQ -->
-                                <div class="card">
+                                <div class="card ms_card">
                                     <h5 class="card-header">F.A.Q.</h5>
                                     <div class="card-body">
                                         <div class="accordion" id="accordionExample">
@@ -249,8 +301,8 @@
                                 </div>
                             </div>
                             <!-- To-do -->
-                            <div class="col-lg-3">
-                                <div class="card">
+                            <div class="col-lg-4">
+                                <div class="card ms_card">
                                     <h5 class="card-header">To-Do</h5>
                                     <div class="card-body">
                                         <div class="form-check">
@@ -275,12 +327,16 @@
                                 </div>
 
                                 <!-- Graph -->
-                                <div class="card">
+                                <div class="card ms_card">
                                     <div class="card-body">
-                                        <img src="img/stats.jpeg" alt="Statistical graph">
-                                      <h5 class="card-title">Special title treatment</h5>
-                                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <img src="img/stats.jpeg" alt="Statistical graph" class="ms_graph">
+                                      <h5 class="card-title ms_card-title">Utenti attivi</h5>
+                                      <p class="card-text ms_card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                      <ul class="ms_active-users">
+                                        <li>Gennaio: 1200</li>
+                                        <li>Febbraio: 800</li>
+                                        <li>Marzo: 1500</li>
+                                      </ul>
                                     </div>
                                 </div>
                             </div>
