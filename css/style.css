@@ -102,11 +102,7 @@ td>.ms_77-class-color {
     color: white !important;
 }
 
-.ms_actions {
-    color: var(--actions-color);
-    border: 1px solid var(--actions-color);
-    border-radius: 5px;
-    height: 10px;
-    width: 10px;
+.table>:not(caption)>*>* {
+    padding: 0.5rem 0 !important;
 }
 /* end dashboard */
