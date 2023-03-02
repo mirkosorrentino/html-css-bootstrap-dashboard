@@ -21,9 +21,10 @@
     <div class="ms_wrapper">
         <!-- header -->
         <header>
-            <div class="container d-flex align-items-center ms_header_container justify-content-between">
+            <div class="container-fluid px-3 d-flex align-items-center ms_header_container justify-content-between">
                 <a href="">
-                    <img src="img/mobile-logo.png" alt="Boolean small logo" class="ms_small-logo">
+                    <img src="img/mobile-logo.png" alt="Boolean small logo" class="ms_small-logo d-lg-none">
+                    <img src="img/logo.svg" alt="Boolean big logo" class="d-none d-lg-inline-block">
                 </a>
                 <!-- form -->
                 <div class="mb-3">
@@ -38,8 +39,8 @@
         <!-- main -->
         <main class="d-flex">
             <!-- sidebar -->
-            <section class="ms_sidebar py-4 d-flex flex-column justify-content-between">
-                <ul>
+            <section class="ms_sidebar py-4 d-flex flex-column justify-content-between navbar">
+                <ul class="ms_sidebar-list">
                     <li class="py-2 col-12">
                         <a href="">
                             <i class="fa-solid fa-house ms_sidebar-symbols"></i>
@@ -66,7 +67,7 @@
             <!-- end sidebar -->
 
             <!-- main content -->
-            <section class="ms_content">
+            <section class="ms_content overflow-y-auto">
                 <!-- jumbotron -->
                 <div class="ms_jumbotron">
                     <div class="container d-md-flex justify-content-between">
@@ -101,7 +102,7 @@
                                                     <img src="img/class-avatar.jpg" alt="Class avatar" class="ms_class-avatar"> Class 75
                                                 </td>
                                                 <td>
-                                                    <div class="badge text-bg-success ">Done</div>
+                                                    <span class="badge text-bg-success text-center">Done</span>
                                                 </td>
                                                 <td>@md</td>
                                               </tr>
