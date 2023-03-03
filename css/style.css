@@ -154,4 +154,10 @@ td>.ms_77-class-color {
     font-size: .8rem;
 }
 
+.ms_card-footer {
+    font-size: .8rem;
+    padding: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.175);
+}
+
 /* end dashboard */
