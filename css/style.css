@@ -161,3 +161,8 @@ td>.ms_77-class-color {
 }
 
 /* end dashboard */
+
+/* offcanvas */
+.offcanvas.offcanvas-end.ms_offcanvas {
+    width: 600px;
+}

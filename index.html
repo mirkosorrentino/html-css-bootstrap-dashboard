@@ -79,8 +79,120 @@
                         <div class="container">
                             <div class="row">
                               <div class="col-12 col-md-4 col-lg-3 order-md-3 py-2">
-                                <span class="ms_jumbo-small-text">Nuovo studente</span>
-                                <button type="button" class="btn btn-lg btn-outline-light">+</button>
+                                    <span class="ms_jumbo-small-text">Nuovo studente</span>
+                                    <!-- offcanvas -->
+                                    <a href="#offcanvasExample" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample" class="btn btn-lg btn-outline-light">+</a>
+                                    <div class="offcanvas offcanvas-end ms_offcanvas" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                        <div class="offcanvas-header">
+                                            <p class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</p>
+                                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body">
+                                            <!-- first line -->
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="px-2">
+                                                        <label for="NameForm" class="form-label">Name</label>
+                                                        <input type="text" class="form-control" id="NameForm">
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="px-2">
+                                                        <label for="LastNameForm" class="form-label">Cognome</label>
+                                                        <input type="text" class="form-control" id="LastNameForm">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- second line -->
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="px-2">
+                                                        <label for="email" class="form-label">Email</label>
+                                                        <span class="input-group-text" id="email">@</span>
+                                                        <input type="text" class="form-control" aria-label="email" aria-describedby="email">
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="px-2">
+                                                        <label for="PasswordForm" class="form-label">Password</label>
+                                                        <input type="password" class="form-control" id="PasswordForm">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- third line -->
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="px-2">
+                                                        <label for="emailaddress" class="form-label">Email address</label>
+                                                        <span class="input-group-text" id="emailaddress">@</span>
+                                                        <input type="email" class="form-control" aria-label="emailaddress" aria-describedby="emailaddress">
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="px-2">
+                                                        <label for="PasswordForm" class="form-label">Password</label>
+                                                        <input type="password" class="form-control" id="PasswordForm">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- fourth line -->
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="px-2">
+                                                        <label for="address" class="form-label">Indirizzo</label>
+                                                        <input type="text" class="form-control" aria-label="address" aria-describedby="address">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- fifth line -->
+                                            <div class="row">
+                                                <div class="col-5">
+                                                    <div class="px-2">
+                                                        <label for="city" class="form-label">Città</label>
+                                                        <input type="text" class="form-control" aria-label="city" aria-describedby="city">
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="px-2">
+                                                        <label for="country" class="form-label">Stato</label>
+                                                        <select class="form-select" aria-label="Default select country">
+                                                            <option selected>Scegli...</option>
+                                                            <option value="1">Italia</option>
+                                                            <option value="2">USA</option>
+                                                            <option value="3">Germania</option>
+                                                          </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="px-2">
+                                                        <label for="cap" class="form-label">CAP</label>
+                                                        <input type="number" class="form-control" id="cap">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- sixth line -->
+                                            <div class="row mb-5">
+                                                <div class="col-12">
+                                                    <div class="px-2">
+                                                        <label for="photo" class="form-label">Foto</label>
+                                                        <input class="form-control" type="file" id="photo">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- offcanvas footer -->
+                                            <div class="ms_offcanvas-footer">
+                                                <div class="form-check mb-3">
+                                                    <input class="form-check-input" type="checkbox" value="" id="GoOn">
+                                                    <label class="form-check-label" for="GoOn">
+                                                    Seleziona per proseguire
+                                                    </label>
+                                                </div>
+                                                <button type="button" class="btn btn-primary">Salva</button>
+                                                <button type="button" class="btn btn-warning">Svuota</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end offcanvas -->
                               </div>
                               <div class="col-12 col-md-5 col-lg-6 py-2">
                                 <span class="ms_jumbo-big-text">Boolean</span> 
