@@ -98,9 +98,27 @@ header {
 .ms_jumbotron {
     color: white;
     background-color: var(--jumbo-color);
-    /* debug */
-    min-height: 200px;
 }
+
+.ms_jumbo-small-text {
+    font-size: 1.2rem;
+}
+
+.ms_jumbo-big-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.ms_btn {
+    background-color: none;
+}
+
+.ms_badge {
+    font-size: .8rem;
+    background-color: #165BBA;
+    vertical-align: middle;
+}
+
 /* end jumbotron */
 
 /* dashboard */
